@@ -7,11 +7,18 @@
 #### 如何下载？
 
 1.  直接点击下载zip即可，文章似乎没法在线查看
-2.  也可以用git clone命令（需要安装git）
+2.  也可以用git clone命令（推荐，需要安装git。[安装教程](https://www.cnblogs.com/xueweisuoyong/p/11914045.html)）
+    ```bash
+    git clone https://gitee.com/kbtxwer/blog3
+    ```
 
 #### 使用说明
 
-1.  下载完后可以用 java -jar j_idx resume 命令恢复文件的修改时间（需要安装jdk11）
+1.  下载完后可以用 java -jar j_idx resume 命令恢复文件的修改时间（若保证不上传文章此项可以不做，需要安装jdk11）
+2.  后续可以进入到博客项目的根目录，用git命令更新文章
+    ```bash
+    git pull
+    ```
 
 #### 特技
 
